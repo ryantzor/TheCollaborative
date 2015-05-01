@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>The Collaborative: chat with anyone, about anything</title>
+
+	<!-- my style sheet -->
+	<link rel="stylesheet" type="text/css" href="styleSheet.css"/>
+
+	<!-- bootstrap style sheet -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+	        <!-- login space -->
+            <div class="col-md-3">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="username">User name:</label>
+                                <input type="text" class="form-control" name="username" placeholder="enter user name">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label> 
+                                <input type="password" class="form-control"  name="password" placeholder="enter password">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox">Remember me?</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">login</button>
+                            <br>
+                            <button class="btn btn-default" style="margin-top:10px;">Sign up</button>
+                        </form>
+            </div>        
+
+            <!-- general site information and instruction -->
+            <div class="col-md-8">
+                <div class"container" style="text-align:center">
+                    <div class="page-header">
+                         <h1>Chat about anything <br> <small>with anyone</small></h1>
+                    </div>
+                    <br> 
+                    <button id="startChat" class="btn-primary btn-lg">Start chatting</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
